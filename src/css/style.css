@@ -8,6 +8,71 @@
 /* Font Google */
 body {
   font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
 }
 
 /* Add your code here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 18rem;
+  height: 25rem;
+  background-color: white;
+  border-radius: .5rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card-top {
+  justify-content: start;
+  /* align-items: start; */
+  /* text-align: start; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: aqua;
+  /* width: 10%; */
+}
+
+.card-bottom {
+  /* align-items: end; */
+  /* text-align: right; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: pink;
+  /* width: 10%; */
+}
+
+.card-center {
+  /* text-align: center; */
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  margin: 1.5rem;
+  padding: 0.7rem;
+  border-radius: .2rem;
+  font-size: 1rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: blue;
+}
